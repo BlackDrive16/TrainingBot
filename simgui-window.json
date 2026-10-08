@@ -4,8 +4,8 @@
   },
   "MainWindow": {
     "GLOBAL": {
-      "font": "Proggy Dotted",
-      "fps": "120",
+      "font": "Droid Sans",
+      "fps": "60",
       "height": "712",
       "maximized": "1",
       "style": "0",
@@ -27,16 +27,16 @@
     "###/AdvantageKit/RealOutputs/SimpleMotor/mech": {
       "Collapsed": "0",
       "Pos": "19,252",
-      "Size": "328,213"
+      "Size": "328,132"
     },
     "###FMS": {
       "Collapsed": "0",
-      "Pos": "121,475",
-      "Size": "283,140"
+      "Pos": "117,454",
+      "Size": "142,184"
     },
     "###Joysticks": {
       "Collapsed": "0",
-      "Pos": "228,27",
+      "Pos": "163,44",
       "Size": "796,155"
     },
     "###NetworkTables": {
@@ -57,7 +57,7 @@
     "###System Joysticks": {
       "Collapsed": "0",
       "Pos": "23,25",
-      "Size": "192,218"
+      "Size": "154,218"
     },
     "###Timing": {
       "Collapsed": "0",
@@ -71,8 +71,8 @@
     },
     "Robot State": {
       "Collapsed": "0",
-      "Pos": "17,476",
-      "Size": "99,116"
+      "Pos": "341,343",
+      "Size": "88,116"
     }
   }
 }
