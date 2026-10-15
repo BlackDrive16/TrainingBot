@@ -133,7 +133,8 @@ public class RobotContainer {
                 ? () -> drive.resetOdometry(driveSimulation.getSimulatedDriveTrainPose())
                 : () -> drive.resetOdometry(new Pose2d(drive.getPose().getTranslation(), new Rotation2d()));
         controller.start().onTrue(Commands.runOnce(resetOdometry).ignoringDisable(true));
-        controller.a().whileTrue(simpleArm.spinFowardCommand());
+        controller.a().whileTrue(simpleArm.spinFowardCommand(0.5));
+        controller.a().whileTrue(simpleArm.spinFowardCommand(-0.5));
     }
 
     /**
