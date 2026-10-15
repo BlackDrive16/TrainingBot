@@ -11,11 +11,27 @@
       "extensions": [
         "${containerWorkspaceFolder}/.devcontainer/vscode-wpilib-2026.2.1.vsix",
         "vscjava.vscode-java-pack",
-        "vscjava.vscode-gradle"
+        "vscjava.vscode-gradle",
+        "richardwillis.vscode-spotless-gradle"
       ]
     }
   },
   "forwardPorts": [
-    6030
-  ]
+    6080
+  ],
+  "portsAttributes": {
+    "6080": {
+      "onAutoForward": "openBrowser",
+      "label": "Desktop"
+    },
+    "1250": {
+      "onAutoForward": "silent"
+    },
+    "1735": {
+      "onAutoForward": "silent"
+    },
+    "5810": {
+      "onAutoForward": "silent"
+    }
+  }
 }
